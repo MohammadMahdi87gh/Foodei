@@ -1,0 +1,298 @@
+@font-face {
+    font-family: alibaba-regular;
+    src: url(../Fonts/alibaba-regular.woff2);
+}
+
+@font-face {
+    font-family: alibaba-bold;
+    src: url(../Fonts/alibaba-bold.woff2);
+}
+
+body {
+    direction: rtl;
+    font-family: alibaba-regular;
+    max-height: 600px !important;
+}
+
+
+/* navbar */
+
+header {
+    background-color: #fcfcfc;
+}
+
+.no-color {
+    background-color: #fcfcfc;
+}
+
+.brand-logo {
+    font-family: alibaba-bold;
+}
+
+nav .brand-logo {
+    position: relative;
+}
+
+nav ul.navbar {
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+
+/* row */
+
+.title {
+    font-family: alibaba-bold;
+    font-size: 2.5rem;
+}
+
+.col {
+    height: 100%;
+}
+
+.con {
+    height: 90%;
+}
+
+#img-left {
+    width: 100%;
+}
+
+.box-title {
+    height: 200px !important;
+    margin-top: 15%;
+}
+
+.box-title a {
+    margin: 30px 20px;
+    border-radius: 25px;
+}
+
+.box-title a.btn {
+    padding: 5px 30px;
+    height: auto;
+}
+
+.box-title blockquote h5 {
+    font-family: alibaba-regular;
+}
+
+blockquote {
+    border-right: 5px solid #ee6e73;
+    border-radius: 5px;
+    border-left: none;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+
+/* btn */
+
+.sbh {
+    margin-top: 10%;
+}
+
+.box-title h6 {
+    font-family: alibaba-bold;
+}
+
+.box-title p {
+    margin: 5px 0px 10px 0;
+}
+
+
+/* media */
+
+@media only screen and (max-width:1300px) {
+    .title {
+        font-size: 2.0rem;
+    }
+    .box-title blockquote h5 {
+        font-size: 1rem;
+    }
+    .box-title a.btn {
+        padding: 0px 20px;
+        font-size: .8rem;
+    }
+    .box-title h6 {
+        font-size: .9rem;
+    }
+    .box-title p {
+        font-size: .7rem;
+    }
+    #img-left {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    nav {
+        height: 59px;
+    }
+    nav .brand-logo {
+        font-size: 1.6rem;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1.6rem;
+    }
+    #img-left {
+        width: 80%;
+    }
+    .box-title blockquote h5 {
+        font-size: .8rem;
+    }
+    .box-title a.btn {
+        padding: 0px 15px;
+        font-size: .6rem;
+    }
+    .box-title a {
+        margin: 20px 20px;
+        border-radius: 15px;
+    }
+    .box-title .icn-lft {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        width: 85%;
+    }
+    .row .col.s6 {
+        width: 45%;
+    }
+    nav {
+        height: 50px;
+    }
+    nav .brand-logo {
+        font-size: 1.2rem;
+    }
+    nav ul li a {
+        font-size: .8rem;
+    }
+    .title {
+        font-size: 1.3rem;
+    }
+    .box-title blockquote h5 {
+        font-size: .7rem;
+    }
+    .box-title a.btn {
+        padding: 0px 10px;
+        font-size: .5rem;
+    }
+    .box-title a {
+        margin: 10px 20px;
+    }
+    .box-title h6 {
+        font-size: .7rem;
+    }
+    .box-title p {
+        font-size: .6rem;
+    }
+    .box-title .icn-lft {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:596px) {
+    .row .col.s6 {
+        width: 45%;
+    }
+    nav {
+        height: 30px;
+    }
+    nav .brand-logo {
+        font-size: .8rem;
+        margin-top: -10px;
+    }
+    nav .sidenav-trigger i {
+        font-size: 1rem;
+        margin-top: -10px;
+    }
+    #img-left {
+        width: 70%;
+    }
+    .title {
+        font-size: .8rem;
+    }
+    .box-title blockquote h5 {
+        font-size: .5rem;
+        margin-top: 5px;
+    }
+    .box-title a.btn {
+        padding: 0px 10px;
+        font-size: .3rem;
+    }
+    .box-title a.btn {
+        height: 15px;
+        line-height: 15px;
+    }
+    .box-title a {
+        margin: 0px 10px;
+    }
+    .box-title h6 {
+        font-size: .5rem;
+    }
+    .box-title p {
+        font-size: .4rem;
+    }
+    .box-title .icn-lft {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width:397px) {
+    .row .col.s6 {
+        width: 40%;
+    }
+    nav {
+        height: 20px;
+    }
+    nav .brand-logo {
+        font-size: .5rem;
+        margin-top: -17px;
+    }
+    nav .sidenav-trigger i {
+        font-size: .7rem;
+        margin-top: -17px;
+    }
+    .title {
+        font-size: .6rem;
+        margin-top: 0%;
+    }
+    .box-title blockquote h5 {
+        font-size: .3rem;
+        margin-top: 5px;
+    }
+    .box-title a.btn {
+        padding: 0px 5px;
+        font-size: .2rem;
+    }
+    .box-title a.btn {
+        height: 10px;
+        line-height: 10px;
+    }
+    .box-title a {
+        margin: 0px 10px;
+        margin-top: -30px;
+    }
+    .box-title h6 {
+        font-size: .3rem;
+        margin-top: 0;
+    }
+    .box-title p {
+        font-size: .2rem;
+        margin-top: -5px;
+    }
+    .box-title .icn-lft {
+        font-size: .5rem;
+        margin-top: -10px;
+    }
+}
